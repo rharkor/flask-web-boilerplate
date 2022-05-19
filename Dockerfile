@@ -1,7 +1,7 @@
 FROM python:3.7
 
-WORKDIR /app/api
-COPY . /app/api
+WORKDIR /app/web
+COPY . /app/web
 
 RUN pip install -r requirements.txt
 
